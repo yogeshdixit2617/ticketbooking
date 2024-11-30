@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(pexels-yuricatalano-127441.jpg); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    padding: 0;
+    display:block;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+main{flex: 1;
+}
+
+/* Container Styling */
+.container {
+    flex: 1; /* Ensures the container takes up remaining space, pushing the footer to the bottom */
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+}
+
+.image {
+    margin: 10px;
+     border-radius: 100px;
+     box-shadow:0 4px 20px #333;
+     width: 100%;
+}
+.image2 {
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 0 4px 20px #333;
+    width: 100%;
+}
+
+/* Header Styling */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form and Input Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, textarea, select, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+    background-image: url(pexels-alfomedeiros-29539571.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color: aqua;           /* White text color */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners at the top */
+    position:relative;
+   min-height: 50px;
+    width: 100%;
+}
+
+.footer-content  {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 3px;
+    height: 50pxpx;
+    width: 100%;
+    padding: 10px;
+}
+.one {
+    color: antiquewhite;
+}
+
+.footer strong {
+    color: #ffcc00; /* Highlighted customer support number */
+}

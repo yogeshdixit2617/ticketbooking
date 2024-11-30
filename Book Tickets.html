@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airplane Ticket Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="homeButton"  onclick="redirectTopage2()">Home </button>
+    <div class="container">
+        <h1>Airplane Ticket Management System</h1>
+        <form id="ticketForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="seat">Seat Number:</label>
+            <input type="text" id="seat" name="seat" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            
+            <label for="from">From:</label>
+            <select id="from" name="from" required>
+                <option value="" disabled selected>Select City</option>
+            </select>
+            
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="" disabled selected>Select City</option>
+            </select>
+            
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" readonly>
+
+            <button type="submit">Book Ticket</button>
+        </form>
+
+        <h2>Booked Tickets</h2>
+        <div id="ticketList"></div>
+        <a href="https://developer.phonepe.com/v2/reference/paymentlink-api/"><img src="icons8-phone-pe-48.png" alt=""></a>
+        <a href="https://paytm.com/login"><img src="icons8-paytm-48.png" alt=""></a>
+
+        <button id="clearTickets">Clear Ticket History</button>
+    </div>
+</div>
+<div class="footer">
+    <footer>
+        <div class="footer-content">
+            <p>For customer support, call: <strong>12584111225</strong></p>
+            <p>Thanks For Booking a flight Ticket !!</p>
+            <p>We Wish You Do Your Safe And HAppy Journey!!</p>
+        </div>
+    </footer> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
